@@ -1,0 +1,24 @@
+{
+  "name": "musicbot2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines":{
+    "node": "16.x"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "buildpacks": [
+    {
+      "url": "heroku/Java"
+    }
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "erela.js": "^2.3.3"
+  }
+}
